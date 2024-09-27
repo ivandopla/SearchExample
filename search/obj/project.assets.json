@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "ConsoleTables/2.6.2": {
+        "type": "package",
+        "dependencies": {
+          "Wcwidth": "1.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/ConsoleTables.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/ConsoleTables.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
         "type": "package",
         "compile": {
@@ -52,10 +68,38 @@
             "related": ".xml"
           }
         }
+      },
+      "Wcwidth/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Wcwidth.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Wcwidth.dll": {
+            "related": ".xml"
+          }
+        }
       }
     }
   },
   "libraries": {
+    "ConsoleTables/2.6.2": {
+      "sha512": "/bH4u0Lni2FPUtGvg1oAKpsEzmhhBlqj0DD67kvV/4qELaEBXDbVo9w3lHFQFe00vLEAZi+5Rr8Nai0D2z7+bg==",
+      "type": "package",
+      "path": "consoletables/2.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Readme.md",
+        "consoletables.2.6.2.nupkg.sha512",
+        "consoletables.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/ConsoleTables.dll",
+        "lib/netstandard2.1/ConsoleTables.pdb"
+      ]
+    },
     "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
       "sha512": "cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
       "type": "package",
@@ -183,40 +227,48 @@
         "npgsql.nuspec",
         "postgresql.png"
       ]
+    },
+    "Wcwidth/1.0.0": {
+      "sha512": "aekut5BeF4c1Jr2qab3aXcttcgPEfPb2ok2L8911EIzn3RnDBYnUWgx/1OVlqrSXCdwAkBpNgYWXb6b5t4cBng==",
+      "type": "package",
+      "path": "wcwidth/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Wcwidth.dll",
+        "lib/net6.0/Wcwidth.xml",
+        "lib/netstandard2.0/Wcwidth.dll",
+        "lib/netstandard2.0/Wcwidth.xml",
+        "wcwidth.1.0.0.nupkg.sha512",
+        "wcwidth.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "ConsoleTables >= 2.6.2",
       "Npgsql >= 8.0.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "D:\\microsoftvscodecomp\\NuGetPackages": {}
+    "C:\\Users\\andrew\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Downloads\\Fortnite\\fortnite\\pro vs code repos\\search\\search.csproj",
+      "projectUniqueName": "c:\\Projects\\SearchExample\\search\\search.csproj",
       "projectName": "search",
-      "projectPath": "D:\\Downloads\\Fortnite\\fortnite\\pro vs code repos\\search\\search.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Downloads\\Fortnite\\fortnite\\pro vs code repos\\search\\obj\\",
+      "projectPath": "c:\\Projects\\SearchExample\\search\\search.csproj",
+      "packagesPath": "C:\\Users\\andrew\\.nuget\\packages\\",
+      "outputPath": "c:\\Projects\\SearchExample\\search\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\microsoftvscodecomp\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\andrew\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -240,6 +292,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "ConsoleTables": {
+            "target": "Package",
+            "version": "[2.6.2, )"
+          },
           "Npgsql": {
             "target": "Package",
             "version": "[8.0.4, )"
@@ -261,7 +317,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

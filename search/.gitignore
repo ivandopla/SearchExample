@@ -1,0 +1,13 @@
+.vs
+.vscode
+.devcontainer
+bin/
+obj/
+logs/
+!/**/settings/logs/
+publish/
+compiled/
+node_modules/
+dist/
+coverage/
+wwwroot/
