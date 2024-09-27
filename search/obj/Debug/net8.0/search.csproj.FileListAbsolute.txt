@@ -17,3 +17,25 @@ D:\Downloads\Fortnite\fortnite\pro vs code repos\search\bin\Debug\net8.0\Microso
 D:\Downloads\Fortnite\fortnite\pro vs code repos\search\bin\Debug\net8.0\Npgsql.dll
 D:\Downloads\Fortnite\fortnite\pro vs code repos\search\obj\Debug\net8.0\search.csproj.AssemblyReference.cache
 D:\Downloads\Fortnite\fortnite\pro vs code repos\search\obj\Debug\net8.0\search.csproj.Up2Date
+C:\Projects\SearchExample\search\bin\Debug\net8.0\search.exe
+C:\Projects\SearchExample\search\bin\Debug\net8.0\search.deps.json
+C:\Projects\SearchExample\search\bin\Debug\net8.0\search.runtimeconfig.json
+C:\Projects\SearchExample\search\bin\Debug\net8.0\search.dll
+C:\Projects\SearchExample\search\bin\Debug\net8.0\search.pdb
+C:\Projects\SearchExample\search\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Projects\SearchExample\search\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projects\SearchExample\search\bin\Debug\net8.0\Npgsql.dll
+C:\Projects\SearchExample\search\obj\Debug\net8.0\search.csproj.AssemblyReference.cache
+C:\Projects\SearchExample\search\obj\Debug\net8.0\search.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\SearchExample\search\obj\Debug\net8.0\search.AssemblyInfoInputs.cache
+C:\Projects\SearchExample\search\obj\Debug\net8.0\search.AssemblyInfo.cs
+C:\Projects\SearchExample\search\obj\Debug\net8.0\search.csproj.CoreCompileInputs.cache
+C:\Projects\SearchExample\search\obj\Debug\net8.0\search.sourcelink.json
+C:\Projects\SearchExample\search\obj\Debug\net8.0\search.csproj.Up2Date
+C:\Projects\SearchExample\search\obj\Debug\net8.0\search.dll
+C:\Projects\SearchExample\search\obj\Debug\net8.0\refint\search.dll
+C:\Projects\SearchExample\search\obj\Debug\net8.0\search.pdb
+C:\Projects\SearchExample\search\obj\Debug\net8.0\search.genruntimeconfig.cache
+C:\Projects\SearchExample\search\obj\Debug\net8.0\ref\search.dll
+C:\Projects\SearchExample\search\bin\Debug\net8.0\ConsoleTables.dll
+C:\Projects\SearchExample\search\bin\Debug\net8.0\Wcwidth.dll
