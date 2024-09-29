@@ -1,8 +1,8 @@
 .vs
 .vscode
 .devcontainer
-bin/
-obj/
+bin/*
+obj/*
 logs/
 !/**/settings/logs/
 publish/
@@ -11,3 +11,4 @@ node_modules/
 dist/
 coverage/
 wwwroot/
+obj
