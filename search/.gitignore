@@ -1,8 +1,8 @@
 .vs
 .vscode
 .devcontainer
-bin/
-obj/
+bin/*
+obj/*
 logs/
 !/**/settings/logs/
 publish/
